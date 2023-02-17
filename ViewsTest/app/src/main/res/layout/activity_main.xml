@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.viewstest.MainActivity">
+
+
+    <Button
+        android:text="List View(arrayadapter)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="arrayadapter_listview_onClick"
+        />
+
+    <Button
+        android:text="List View(Baseadapter)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:onClick="baseadapter_listview_onClick"
+        />
+
+    <Button
+        android:text="Grid View(Arrayadapter)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="gridlayout_Arrayadapter_Onclick"
+        />
+
+    <Button
+        android:text="Grid View(Base Adapter)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="gridlayout_Baseadapter_Onclick" />
+
+    <Button
+        android:text="Grid View(Custom Arrayadapter)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:onClick="gridlayout_CustomArrayadapter_Onclick"/>
+</LinearLayout>
